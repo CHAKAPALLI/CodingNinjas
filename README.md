@@ -1,2 +1,0 @@
-# CodingNinjas
-Java-DSA
