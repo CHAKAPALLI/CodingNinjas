@@ -1,0 +1,17 @@
+public class solution {
+
+	// Return the changed string
+	public static String removeX(String s) {
+		if (s.length() == 0) {
+			return s;
+		}
+		String smallOutput = removeX(s.substring(1));
+		String curr = "";
+		if (s.charAt(0) != 'x') {
+			curr = curr + s.charAt(0);
+		}
+		return curr + smallOutput;
+		// Write your code here
+
+	}
+}
